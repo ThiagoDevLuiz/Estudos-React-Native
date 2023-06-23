@@ -2,7 +2,11 @@ import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 
 
-import FlexboxV1 from './components/layout/FlexboxV1';
+import Mega from './components/mega/Mega';
+// import FlexboxV4 from './components/layout/FlexboxV4';
+// import FlexboxV3 from './components/layout/FlexboxV3';
+// import FlexboxV2 from './components/layout/FlexboxV2';
+// import FlexboxV1 from './components/layout/FlexboxV1';
 // import Familia from './components/relacao/Familia';
 // import Membro from './components/relacao/Membro';
 // import ParImpar from './components/ParImpar';
@@ -20,8 +24,12 @@ import FlexboxV1 from './components/layout/FlexboxV1';
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <FlexboxV1 />
+    <Mega qtdeNumeros={12}/>
     {/*     
+    <FlexboxV4 />
+    <FlexboxV3 />
+    <FlexboxV2 />
+    <FlexboxV1 />
     <Familia>
       <Membro nome="Wellington" sobrenome="Luiz" />
       <Membro nome="Marcira" sobrenome="da Silva" />
